@@ -1,0 +1,97 @@
+.container{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 99.8vh;
+    /* border: 1px solid red; */
+    /* width: 100%; */
+}
+
+.first_half{
+    /* border: 1px solid green; */
+    width: 50%;
+    padding: 1em;
+}
+
+.second_half{
+    background-color: #D36500;
+    width: 50%;
+    color: #fff;
+    padding: 3em;
+}
+
+.church_bus{
+    margin-top: 6em;
+}
+
+.text{
+    font-size: 2.5rem;
+    margin-top: 3em;
+}
+
+.para{
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-top: -1em;
+}
+
+.flex_input{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.email_input{
+    font-family: "Poppins";
+    padding: 1em;
+    border-radius: 10px;
+    width: 80%;
+    font-size: 1.05rem;
+}
+
+.password_input{
+    font-family: "Poppins";
+    padding: 1em;
+    border-radius: 10px;
+    margin-top: 2em;
+    width: 80%;
+    font-size: 1.05rem;
+}
+
+.forgot_password_btn{
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    margin-top: 1em;
+    font-family: 'Poppins';
+    font-size: 1.05rem;
+    cursor: pointer;
+    color: #FFf;
+}
+
+.login_btn{
+    padding: .8em;
+    margin-top: 3em;
+    width: 84%;
+    background-color: #343434;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.login_btn:hover{
+    background-color: #171717;
+}
+
+.eye_icon{
+    color: black;
+    margin-left: -2.5em;
+    font-size: 1.1rem;
+    /* margin-top: 1em; */
+    cursor: pointer;
+}
