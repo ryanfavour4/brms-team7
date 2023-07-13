@@ -1,0 +1,19 @@
+{
+  "name": "bus-route-management-system",
+  "version": "1.0.0",
+  "description": "bus route management system api v1",
+  "main": "index.js",
+  "author": "ryan favour",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0",
+    "uuid": "^9.0.0"
+  }
+}
